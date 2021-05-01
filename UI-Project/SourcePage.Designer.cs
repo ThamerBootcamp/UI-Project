@@ -29,6 +29,7 @@ namespace UI_Project
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SourcePage));
             this.srcpanel1 = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -45,58 +46,69 @@ namespace UI_Project
             // srcpanel1
             // 
             this.srcpanel1.Controls.Add(this.richTextBox1);
-            this.srcpanel1.Location = new System.Drawing.Point(0, 2);
+            this.srcpanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.srcpanel1.Location = new System.Drawing.Point(0, 0);
             this.srcpanel1.Name = "srcpanel1";
-            this.srcpanel1.Size = new System.Drawing.Size(1364, 834);
+            this.srcpanel1.Size = new System.Drawing.Size(1304, 846);
             this.srcpanel1.TabIndex = 1;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Font = new System.Drawing.Font("Consolas", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1364, 834);
+            this.richTextBox1.Size = new System.Drawing.Size(1304, 846);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(1370, 2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(1111, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 834);
+            this.panel1.Size = new System.Drawing.Size(193, 846);
             this.panel1.TabIndex = 2;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.saveButton1);
             this.groupBox1.Controls.Add(this.OpenButton1);
-            this.groupBox1.Location = new System.Drawing.Point(0, 39);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(233, 186);
+            this.groupBox1.Size = new System.Drawing.Size(193, 228);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // saveButton1
             // 
-            this.saveButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.saveButton1.Location = new System.Drawing.Point(3, 128);
+            this.saveButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.saveButton1.Image = ((System.Drawing.Image)(resources.GetObject("saveButton1.Image")));
+            this.saveButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.saveButton1.Location = new System.Drawing.Point(3, 132);
             this.saveButton1.Name = "saveButton1";
-            this.saveButton1.Size = new System.Drawing.Size(227, 55);
+            this.saveButton1.Size = new System.Drawing.Size(187, 93);
             this.saveButton1.TabIndex = 1;
             this.saveButton1.Text = "Save as";
+            this.saveButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.saveButton1.UseVisualStyleBackColor = true;
             this.saveButton1.Click += new System.EventHandler(this.saveButton1_Click);
             // 
             // OpenButton1
             // 
             this.OpenButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.OpenButton1.Font = new System.Drawing.Font("Segoe UI", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OpenButton1.Image = ((System.Drawing.Image)(resources.GetObject("OpenButton1.Image")));
+            this.OpenButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.OpenButton1.Location = new System.Drawing.Point(3, 35);
             this.OpenButton1.Name = "OpenButton1";
-            this.OpenButton1.Size = new System.Drawing.Size(227, 52);
+            this.OpenButton1.Size = new System.Drawing.Size(187, 97);
             this.OpenButton1.TabIndex = 0;
-            this.OpenButton1.Text = "Open";
+            this.OpenButton1.Text = "Open file";
+            this.OpenButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.OpenButton1.UseVisualStyleBackColor = true;
             this.OpenButton1.Click += new System.EventHandler(this.OpenButton1_Click);
             // 
@@ -117,12 +129,11 @@ namespace UI_Project
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.srcpanel1);
             this.Name = "SourcePage";
-            this.Size = new System.Drawing.Size(1603, 839);
+            this.Size = new System.Drawing.Size(1304, 846);
             this.srcpanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

@@ -316,25 +316,26 @@ namespace UI_Project
 
         }
 
-        private void colorButton1_Click(object sender, EventArgs e)
-        {
-            //colorDialog1.ShowDialog();
-            try
-            {
-                if (colorDialog1.ShowDialog() == DialogResult.OK)
-                {
-                    DesignPage.penColor = colorDialog1.Color;
-                }
-               
-            }
-            catch (Exception ex)
-            {
-                var err = MessageBox.Show("Error: cant open color dialog") ;
-                
-                throw ex;
-            }
-           
-        }
 
+        private void colorButton1_Click(object sender, EventArgs e)
+         {
+             /*colorDialog1.ShowDialog();
+             try
+             {
+                 if (colorDialog1.ShowDialog() == DialogResult.OK)
+                 {
+                     DesignPage.penColor = colorDialog1.Color;
+                 }
+
+             }
+             catch (Exception ex)
+             {
+                 var err = MessageBox.Show("Error: cant open color dialog") ;
+
+                 //throw ex;
+             }
+             */
+         }
+        
     }
 }

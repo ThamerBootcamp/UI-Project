@@ -113,4 +113,17 @@
         TkSuQmCC
 </value>
   </data>
+  <data name="solidButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACRJREFUSEtj
+        GAWjYBSMAtLAfypjDIBNESV4FIyCUTAKiAMMDAACDyfZdCWmxAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="dashedButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAADNJREFUSEvt
+        yqsNACAQRMHrvywojI87AwoCYiZ5ajcA4Et11BbNLTv63R3KKLv1BYDnIjrT7yz+rCDqIgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
 </root>

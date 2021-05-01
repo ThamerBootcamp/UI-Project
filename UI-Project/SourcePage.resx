@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="saveButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAX5JREFUSEu1
+        1k0rRHEUx/EpZWVj4SlPC94EsVYosfIKvAt73oMlpbBR2Csldp5WHlYsLERWsuD7U//bOdNJZy7zq4/8
+        z73nf+beaWZug3RiHU/4+gevWEUHXNbQfPIk6mQKZY9d6CKqPMIOkWyiHls7QDXMHiiyiXpsTfbwcxub
+        D0g2UY+tFXrPwgPZRD22VrwgPJBN1GNrVlxMJuqxNSsuJhP12JoVFvV5qJNpRPtJWGyHsNgOYbEd3KLu
+        d1wU+70nfpHIGfaxgkEVfonb2y0S0ZBzbEA/LafoRxS3t1skoivREGUMn7hBnwpNcXu7RSJD0JWM4xil
+        9xrNw9zebpHMCXQltleu0IuSD5Rj7sRsdFW3sL3FJbqhLKG8IHdSKxnGHWy/bGIW5TYu41n/2JNazQju
+        YYcs4g0z6IIyoT9/GaSM4gFbKEMWcIQdVLEPJ3UzgHnYIdrvEFXs41bdnwdFt3EOZcgFelBFj0MaFj12
+        ZbyjvEC9J9vQMDOk0fgGy8hO47cDH3oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="OpenButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAADYSURBVEhL7ZY9CsJAEEbTWXg4T+AV9CbewE7RxsLWv0Jb0V4bxV5L7fQNcZYQVt3JEoiQBw+W
+        5Zt87LJFkjcrfEa4wSB8w1aDMIVz1EXVLzJRyaIu7tOlnZCiBo5QcnfZKMKvoibOUXOlFMlJlqiZvDe8
+        4gkPuEXJT3GIbXTokI8xZj9s9YIO3fQRW3RGh276kKtbYHZYfaBcm3zsiHJtkp1gH3vYQocOfkIewww1
+        V9qrE+RkAyy9SOngLl3asRRF8RdFptm6KEuhohiDkB9A33Coa/xCkrwA/bnJVZwJYNEAAAAASUVORK5C
+        YII=
+</value>
+  </data>
 </root>
