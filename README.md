@@ -40,7 +40,7 @@ the supported *.drw* syntax are as follows, shape name and four positive integer
 > (x1,y1) first point , (x2,y2) end point 
 
 
-### To run 
+## To run 
     # Clone this repository
     $ git clone https://github.com/ThamerBootcamp/UI-Project
     
